@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A Odisseia das Estrelas</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="images.jpg" alt="Estação Espacial Orion">
+            <p>Você é um piloto de naves espaciais em busca do Coração Estelar, uma relíquia que promete poder inimaginável. Sua jornada começa na Estação Espacial Orion.</p>
+            <button class="btn-proximo" data-proximo="1">Conversar com um informante</button>
+            <button class="btn-proximo" data-proximo="2">Provisões sua nave</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="images.jpg" alt="Informante">
+            <p>O informante revela que o Coração Estelar está em um planeta desolado chamado Xylon. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="3">Explorar as ruínas de Xylon</button>
+            <button class="btn-proximo" data-proximo="4">Negociar com os saqueadores</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="nave.jfif" alt="Nave Espacial">
+            <p>Após abastecer, você parte para Xylon. Chegando lá, o ambiente é hostil e cheio de perigos.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar as ruínas de Xylon</button>
+            <button class="btn-proximo" data-proximo="4">Negociar com os saqueadores</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="ruina.webp" alt="Ruínas de Xylon">
+            <p>Nas ruínas, você encontra um mapa que indica a localização de uma nebulosa densa. Você deve seguir em frente.</p>
+            <button class="btn-proximo" data-proximo="5">Viajar para a nebulosa</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="saqueador.jfif" alt="Saqueadores">
+            <p>Os saqueadores não cooperam e você acaba em um combate. Você consegue escapar, mas sem pistas.</p>
+            <button class="btn-proximo" data-proximo="5">Viajar para a nebulosa</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="nebulosa.jfif" alt="Nebulosa de Fumaça Densa">
+            <p>Na Nebulosa de Fumaça Densa, você descobre uma caverna. Um holograma ativa e apresenta um enigma:</p>
+            <p>"Eu não tenho forma, mas posso preencher todo o espaço. O que sou?"</p>
+            <button class="btn-proximo" data-proximo="6">Responder "O tempo"</button>
+            <button class="btn-proximo" data-proximo="7">Responder "A luz"</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="coracao.webp" alt="Coração Estelar">
+            <p>Você respondeu corretamente! A caverna se abre, revelando o Coração Estelar. Agora, o que você fará?</p>
+            <button class="btn-proximo" data-proximo="8">Usar o poder da relíquia</button>
+            <button class="btn-proximo" data-proximo="9">Destruir a relíquia</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Resposta incorreta! O holograma se desativa, e você deve encontrar uma nova maneira de acessar o Coração.</p>
+            <button class="btn-proximo" data-proximo="5">Tentar novamente o enigma</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="heroi.jfif" alt="Poder da Relíquia">
+            <p>Você se torna o governante da galáxia, mas é temido por muitos. O poder corrompeu sua alma.</p>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="heroi.jfif" alt="Herói da Galáxia">
+            <p>Você destrói a relíquia, protegendo a galáxia de seu poder. Você se torna um herói, lembrado por suas ações nobres.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
